@@ -19,7 +19,7 @@ print(list_1[-1])
 point=[10,20,30]
 x,y,z=point
 print(x,y,z)
-    # if there is more than element in list your asing you can just use
+    # if there is more than element in list your can use a * to assing all in one element
 
 point=[10,20,30,50,89]
 x,y,*z=point
