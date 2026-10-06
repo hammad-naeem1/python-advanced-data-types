@@ -40,9 +40,13 @@ for i in range(len(list)):
 for list_elements in list:
     print(list_elements,end=" - ")
 
+#  if you want index and item both then use enumerate function
+for index,item in enumerate(list):
+    print(f"index is {index} and item is {item}",end='')
 
 
-# =======
+
+# =======p
 # lopping through a list 
 # ========
 # step_1 of lopping
@@ -63,6 +67,34 @@ type=list("spiderman")
 print(type)
 for list_elements in type:
     print(list_elements,end=" ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

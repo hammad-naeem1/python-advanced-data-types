@@ -6,7 +6,7 @@ my_list=['ironman',7,18]
 # adding a value in a list 
 my_list.append('spiderman')
 print(my_list)
-
+Reply
 
 # =========================
 # adding a value in a list  with given position
@@ -38,6 +38,9 @@ print(my_list.pop())
 
 my_list[1]=10
 print(my_list)
+
+# it replces a value with his index 
+# =======================================
 
 
 
