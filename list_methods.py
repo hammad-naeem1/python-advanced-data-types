@@ -27,8 +27,14 @@ print(my_list)
 
 my_list.pop()
 print(my_list.pop())
-# pop will remove the last element from the list
+# pop will remove the last element from the list if index is not given ! 
 #we can store the pop in a variable and it return the removed last value
+
+# if index is given :
+# it would remove the element and will return that element
+my_list.pop()
+print(my_list.pop(1))
+
 # ==============================================================================
 
 
