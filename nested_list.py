@@ -1,7 +1,7 @@
 
 # nested list 
 
-    # it is a list containg anothe list init useful for metrices ,grids and records
+    # it is a list containg another list init useful for metrices ,grids and records
 
 # example
 
@@ -12,15 +12,15 @@ print(list_1[-1])
 
 
 # ===========
-# list unpacking
-        # assigning the values of a list to variables in a single statement is called list unpacking
+# a list to variables in a single statement is called list unpacking
 
-# example :
+# example :# list unpacking
+        # assigning the values of 
 point=[10,20,30]
 x,y,z=point
-print(x,y,z)
-    # if there is more than element in list your can use a * to assing all in one element
+print(x,y,z)\
 
+    # if there is more than element in list your asing you can just use
 point=[10,20,30,50,89]
 x,y,*z=point
 print(x,y,z)
