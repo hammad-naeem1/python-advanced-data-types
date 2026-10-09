@@ -8,6 +8,7 @@
 # Creating a dictionary using curly braces
 user = {
     "name": "Alice",
+    "age": 30,
     "skills": ["Python", "Data Science"]
 }
 
