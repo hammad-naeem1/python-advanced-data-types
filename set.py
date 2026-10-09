@@ -20,14 +20,7 @@ names={'spiderman','Loki','scarlett johanson🫀','Ironman','Thor','hulk'}
 #               is a method to make a set which is immutable 
 s1={1,2,5,6,}
 new_s1=frozenset(s1)
-print(s1)
-
-
-
-
-
-
-
+new_s1.discard
 
 
 
@@ -50,7 +43,7 @@ print(names)
                             # .remove()
 # it removes a elemrnt from a set but gives error if the element not presesnt 
 
-# names.remove('captain america')
+names.remove('captain america')
 
 
 # ==========================
