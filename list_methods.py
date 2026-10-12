@@ -6,7 +6,6 @@ my_list=['ironman',7,18]
 # adding a value in a list 
 my_list.append('spiderman')
 print(my_list)
-Reply
 
 # =========================
 # adding a value in a list  with given position
