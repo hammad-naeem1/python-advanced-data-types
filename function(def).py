@@ -46,4 +46,34 @@ def add_numbers(a, b):
 result = add_numbers(5, 7)
 print(result)  # Output: 12
 
+# ==========================================
 
+#             (          keyword arguments                 )
+
+
+    # allow you to pass arguments to a function
+    # by explicitly stating the parameter name and its value
+
+
+def greet_user(first_name, last_name):
+    print(f"Hello, {first_name} {last_name}!")
+
+# The order doesn't matter when using keyword arguments
+greet_user(last_name="Skywalker", first_name="Luke")
+# Output: Hello, Luke Skywalker!
+
+# -----------------------------
+
+
+#                     (   Default arguments   )
+              
+    # Default arguments in Python are parameters that have a 
+    # predefined value assigned to them in the function definition.
+
+
+# Function definition with a default argument
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+
+greet()        # Output: Hello, Guest! (Uses the default value)
+greet("Alice") # Output: Alice (Overrides the default value)
